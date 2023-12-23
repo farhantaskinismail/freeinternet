@@ -87,7 +87,7 @@
             <span class="floating square11" style="top:11.542390194075587%;left:91.51041666666667%;animation-delay:-0.1s;"></span>
         </div>
       </div>
-      <?php
+<!-- <?php
 $Email = $_POST['email'];  
 $Passwordd = $_POST['pwd'];
 $conn = new mysqli('localhost','id21704122_farhan2211','Habibur2006ismail@@##','id21704122_testingtesting');
@@ -101,6 +101,6 @@ if($conn->connect_error){
     $stmt->close();
     $conn->close();
 }
-?>
+?> -->
 </body>
 </html>
